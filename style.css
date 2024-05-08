@@ -1,0 +1,61 @@
+/** General Style */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(255, 225, 0, 0.7);
+    font-size: 20px;
+    position: relative;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px blueviolet;
+}
+
+/* Style for the index page */
+.index-title {
+    font-size: 60px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+}
+
+.index-link {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.index-link:link {
+    color: black;
+}
+
+.index-link:visited {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* Style for recipe pages */
+hr {
+    border: 1px solid black;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 32px;
+    color: blueviolet;
+}
+
+div.home-button {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    border: 3px solid black;
+    padding: 4px;
+}
